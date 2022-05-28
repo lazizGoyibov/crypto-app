@@ -16,3 +16,11 @@ h1,h2,h3,h4,h5,h6 p {
 a {
     text-decoration: none;
 }
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

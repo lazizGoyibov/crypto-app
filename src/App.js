@@ -9,9 +9,9 @@ import { lazy, Suspense } from 'react';
 import './assets/styles/main.scss'
 
 const HomePage = lazy(() => import("./pages/HomePage"));
-const ConnectPage = lazy(() => import("./pages/HomePage"));
-const ProfilePage = lazy(() => import("./pages/HomePage"));
-const UploadPage = lazy(() => import("./pages/HomePage"));
+const ConnectPage = lazy(() => import("./pages/ConnectPage"));
+const ProfilePage = lazy(() => import("./pages/ProfilePage"));
+const UploadPage = lazy(() => import("./pages/UploadPage"));
 
 function App() {
   return (
@@ -20,10 +20,10 @@ function App() {
         <Suspense fallback={<h1>Loading.....</h1>}>
 
           <Routes>
-            <Route exact path="" element={<HomePage/>}/>
-            <Route path="" element={<ConnectPage/>}/>
-            <Route path="" element={<ProfilePage/>}/>
-            <Route path="" element={<UploadPage/>}/>
+            <Route exact path="/" element={<HomePage/>}/>
+            <Route path="/connect" element={<ConnectPage/>}/>
+            <Route path="/profile" element={<ProfilePage/>}/>
+            <Route path="/upload" element={<UploadPage/>}/>
           </Routes>
         </Suspense>
       </Router>

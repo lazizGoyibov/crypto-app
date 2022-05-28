@@ -12,7 +12,9 @@ const HomePage = () => {
             <Header/>
 
 
+            <div className="home-main container">
             <HomeSection1/>
+            </div>
 
 
             <Footer/>
