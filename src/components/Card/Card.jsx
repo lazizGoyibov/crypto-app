@@ -1,14 +1,15 @@
 
 import Avatars from '../../assets/images/avatars.svg'
-
+import {Link} from 'react-router-dom'
 
 import './Card.scss'
+import '../../assets/styles/main.scss'
 
 
 const Card = ({Rasm, Title}) => {
     return (
      
-             <div className="card">
+             <Link to="" className="card">
         <div className="card-inner">
            
 
@@ -48,7 +49,7 @@ const Card = ({Rasm, Title}) => {
 
         
         </div>
-    </div>
+    </Link>
       
     )
 }

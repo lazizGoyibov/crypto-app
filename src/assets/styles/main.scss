@@ -266,90 +266,10 @@ a {
 
 
 
-            .create-card__title {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 32px;
-                color: #23262F;
-                margin-bottom: 24px;
-            }
-
-
-            .create-card__title1 {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                color: #23262F;
-
-            }
-
-
-            .create-card__addition {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 12px;
-                text-transform: uppercase;
-                color: #45B36B;
-                border: 2px solid #45B36B;
-                border-radius: 4px;
-                padding: 5px;
-
-            }
-
-            .create-card__stock {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 24px;
-                color: #353945;
-
-            }
-
-            .create-card__bid {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 20px;
-                color: #777E91;
-                display: flex;
-                align-items: center;
-                
-
-                span {
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 12px;
-                    line-height: 20px;
-                    color: #353945;
-                    margin-left: 5px;
-                }
-            }
-
-            .create-card__bid::before{
-                content: url('../images/statistic.svg');
-                width: 20px;
-                height: 20px;
-                margin-right: 8px;
-            }
+           
         }
 
-        .create-card__new {
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 20px;
-            color: #777E91;
-        }
+       
 
         .create-card__clear {
             display: flex;
@@ -372,12 +292,20 @@ a {
             }
         }
 
+
+
+
 }
 
 .create-wrapper {
     padding-top: 168px;
     display: flex;
     justify-content: space-between;
+
+
+    hr {
+        margin-bottom: 40px;
+    }
 }
 
 .create-left {
@@ -398,9 +326,7 @@ a {
     margin-bottom: 40px;
 }
 
-hr {
-    margin-bottom: 40px;
-}
+
 
 .create-inputs {
     margin-right: 20px;
@@ -467,4 +393,182 @@ hr {
 .create-card-main {
   
     margin-bottom: 24px;
+}
+
+.ppage-links {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #777E91;
+
+}
+
+.create-card__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #23262F;
+    margin-bottom: 24px;
+}
+
+
+.create-card__title1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #23262F;
+
+}
+
+
+.create-card__addition {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+    border: 2px solid #45B36B;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.create-card__stock {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353945;
+
+}
+
+.create-card__bid {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+    display: flex;
+    align-items: center;
+    
+
+    span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #353945;
+        margin-left: 5px;
+    }
+}
+
+.create-card__bid::before{
+    content: url('../images/statistic.svg');
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.create-card__new {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+}
+
+.PPage-links-into {
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.ppage-cards {
+    display: flex;
+    align-items: center;
+}
+
+.profilePage-main {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.profilePage-bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.ppage-links {
+    margin-right: 16px;
+    padding: 10px;
+}
+.ppage-links:last-child {
+    margin-right: 0;
+}
+
+.active {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FCFCFD;
+    background: #353945;
+    border-radius: 100px;
+    padding: 10px;
+
+}
+
+
+.profile__btns {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FCFCFD;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    margin-right: 8px;
+
+    img {
+        margin-left: 5px;
+    }
+}
+.profile__btns:last-child {
+    margin-right: 0;
+}
+
+.PPage-btns {
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
