@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom'
 import Logo from '../../assets/images/logo2.svg'
 import Search from '../../assets/images/search.svg'
 import Bell from '../../assets/images/bell.svg'
+import { Badge } from '@mui/material';
 
-import Box from '@mui/material/Box';
 
 
 
@@ -32,9 +32,17 @@ const Header = () => {
                     <img src={Search} alt="" className='header-right__icon'/>
                     </label>
 
-                    <button className='header-right-btn'>
-                        <img src={Bell} alt=""  className='header-right-btn__bell'/>
-                    </button>
+                    
+
+                            <button className='header-right-btn'>
+
+                                
+                    <Badge badgeContent="" color="success" variant='dot'>
+                    <img src={Bell} alt=""  className='header-right-btn__bell'/>
+                    </Badge>
+                               
+                            </button>
+                 
 
                     <Link to="/upload">
                         <button className="header-right__btn1">

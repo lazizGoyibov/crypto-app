@@ -1,0 +1,192 @@
+.upload {
+    .upload-wrapper {
+        .upload-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .upload-top-btn {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 16px;
+                text-align: center;
+                color: #23262F;
+                padding: 16px 20px;
+                border: 2px solid #E6E8EC;
+                border-radius: 90px;
+                outline: none;
+                cursor: pointer;
+                background-color: transparent;
+
+                img {
+                    margin-right: 16px;
+                }
+            }
+        }
+
+
+        .upload-card1__btn1 {
+            display: block;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+            color: #23262F;
+            padding: 16px 20px;
+            border: 2px solid #E6E8EC;
+            border-radius: 90px;
+            outline: none;
+            cursor: pointer;
+            background-color: transparent;
+        }
+
+        .upload-card1__btn2 {
+            display: block;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+            color: #FCFCFD;
+            padding: 16px 20px;
+            background: #3772FF;
+            border-radius: 90px;
+            outline: none;
+            cursor: pointer;
+            border: none;
+            margin-bottom: 8px;
+        }
+
+        .upload-card1__img {
+            width: 320px;
+                height: 256px;
+                margin-bottom: 24px;
+        }
+
+        .block2-card-wrapper {
+            display: flex;
+        }
+
+        .upload-card1 {
+            border: 1px solid #E6E8EC;
+            border-radius: 16px;
+            margin-right: 32px;
+
+
+            .upload-card1-inner {
+                padding: 16px;
+            }
+
+        }
+
+        .upload-card2 {
+            border: 1px solid #E6E8EC;
+            border-radius: 16px;
+
+
+            .upload-card2-inner {
+                padding: 16px;
+            }
+
+            
+
+        }
+
+        .upload-btn-wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        .upload-bottom-block2__text {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                align-self: center;
+                color: #777E91;
+
+        }
+
+
+        .upload-bottom-block2 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .block2-card-wrapper {
+            margin-bottom: 32px;
+        }
+
+        .upload-text-wrap {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 138px;
+        }
+
+        .upload-top {
+            margin-top: 36px;
+            margin-bottom: 36px;
+        }
+
+        .upload__title1 {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #23262F;
+
+        }
+
+        .upload__text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #777E91;
+            width: 736px;
+        }
+
+        .upload-text-wrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        hr {
+            width: 1440px;
+            height: 1px;
+            background: #E6E8EC;
+            margin-bottom: 80px;
+        }
+    }
+}
+
+
+.crumb-links {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #23262F;
+}
+
+.crumb-links:first-child {
+    color: #777E91;
+}

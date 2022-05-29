@@ -2,11 +2,13 @@ import HomePage from './HomePage';
 import ConnectPage from './ConnectPage';
 import ProfilePage from './ProfilePage';
 import UploadPage from './UploadPage';
+import CreateSinglePage from './CreateSinglePage';
 
 
-export default {
+export  {
     HomePage,
     ConnectPage,
     ProfilePage,
-    UploadPage
+    UploadPage,
+    CreateSinglePage
 }
